@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="page-add">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="page-breadcrumb">
+                    <h2>Who are we?</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact-section">
+    <div class="container">        
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="product-content">
+                    <p class="blockquote">At Fashionly.AI, we believe that fashion should feel personal, effortless, and rooted in your story.
+
+                        We're building an AI-powered stylist that understands you — your wardrobe, your culture, and your vibe. Whether you're dressing for a casual day out, a traditional Indian celebration, or a custom event, Fashionly.AI helps you choose outfits that feel just right.
+                        
+                        Our platform intelligently analyzes your existing wardrobe, blends in traditional aesthetics, modern silhouettes, and cultural nuances, and curates outfit suggestions tailored to your unique taste. Think of us as your smart fashion companion — one that gets your style and helps you evolve it, one suggestion at a time.
+                        
+                        From sarees to streetwear, kurtas to co-ords — we bring together tech and tradition to create a truly personalized fashion experience. Because fashion isn't one-size-fits-all, and neither are you.</p>
+
+
+                </div>
+            </div>
+            <div class="col-lg-3">
+                
+                <div class="rounded-circle">
+                    <figure>
+                        <img src="{{ url_for('static', filename ='img/profiles/'+ 'd.png') }}" alt="">
+                        
+                    </figure>
+                
+                </div>
+            
+        </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

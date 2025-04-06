@@ -1,0 +1,119 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- Hero Slider Begin -->
+<section class="hero-slider">
+    <div class="hero-items owl-carousel">
+        <div class="single-slider-item set-bg" data-setbg="{{ url_for('static', filename='img/homepage_one.png') }}">
+            <div class="container">
+            </div>
+        </div>
+
+        <div class="single-slider-item set-bg" data-setbg="{{ url_for('static', filename='img/homepage_two.png') }}">
+            <div class="container">
+            </div>
+        </div>
+
+        <div class="single-slider-item set-bg" data-setbg="{{ url_for('static', filename='img/homepage_three.png') }}">
+            <div class="container">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Slider End -->
+
+<div class="chat-cta" style="text-align: center; margin-top: 40px;">
+    <h2>Need help picking the right outfit?</h2>
+    <p>Chat with Fashionly AI and get personalized fashion advice based on your wardrobe & traditions.</p>
+</div>
+
+<div id="chatWidget" class="chat-container">
+    <div class="chat-header">
+      <h2>Fashionly AI</h2>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="chat-message bot">Hi! I'm Fashionly AI 👗 How can I help you today?</div>
+    </div>
+    <div class="chat-input-area">
+      <input type="text" id="chatInput" placeholder="Type your message..." />
+      <button id="chatSend">Send</button>
+    </div>
+  </div>
+
+<!-- Testimonials Begin -->
+<section class="testimonials spad">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Results</h2>
+        </div>
+        <div class="section-title text-center">
+            <h3>Here are the outfits I found when queried for jeans:</h3>
+        </div>
+        <div class="products">
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/chatbot/1.jpg') }}" alt="Jeans 1" />
+                <h3>Jeans</h3>
+                <p>Amazon</p>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/chatbot/2.jpg') }}" alt="Jeans 2" />
+                <h3>Jeans</h3>
+                <p>Flipkart</p>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/chatbot/3.jpg') }}" alt="Jeans 3" />
+                <h3>Jeans</h3>
+                <p>Myntra</p>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='img/chatbot/4.jpg') }}" alt="Jeans 4" />
+                <h3>Jeans</h3>
+                <p>Tata Cliq</p>
+            </div>  
+        </div>
+    </div>
+</section>
+<!-- Testimonials End -->
+
+<!-- Newsletter Section Begin -->
+<section class="newsletter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="newsletter-text">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <p>Get updates about new arrivals and exclusive offers.</p>
+                    <form action="#" class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit" class="site-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Section End -->
+
+<!-- Logo Section Begin -->
+<div class="logo-section spad">
+    <div class="logo-items owl-carousel">
+        <div class="logo-item">
+            <img src="{{ url_for('static', filename='img/logos/logo-1.png') }}" alt="">
+        </div>
+        <div class="logo-item">
+            <img src="{{ url_for('static', filename='img/logos/logo-2.png') }}" alt="">
+        </div>
+        <div class="logo-item">
+            <img src="{{ url_for('static', filename='img/logos/logo-3.png') }}" alt="">
+        </div>
+        <div class="logo-item">
+            <img src="{{ url_for('static', filename='img/logos/logo-4.png') }}" alt="">
+        </div>
+        <div class="logo-item">
+            <img src="{{ url_for('static', filename='img/logos/logo-5.png') }}" alt="">
+        </div>
+    </div>
+</div>
+<!-- Logo Section End -->
+
+{% endblock content %}
