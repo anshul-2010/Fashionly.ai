@@ -1,6 +1,6 @@
 # 👗 Fashionly AI – Your Personal Fashion Chatbot
 
-Welcome to **Fashionly AI**, your AI-powered virtual fashion assistant. This chatbot helps users get style tips, outfit suggestions, and more — all through a sleek, interactive chat interface powered by Google Gemini Pro.
+Welcome to **Fashionly AI**, your AI-powered virtual fashion assistant. This chatbot helps users get style tips, outfit suggestions, and more — all through a sleek, interactive chat interface powered by Google Gemini Pro.It was build as a part of 24 hours GenAI Hackathon.
 
 ![Fashionly AI Screenshot](![image](https://github.com/user-attachments/assets/cfda8cb2-5420-487d-bdf4-49ddc3d01bb0))
 
